@@ -84,6 +84,16 @@ $posts = mysqli_query($connection, $query);
                             <h5>Manage Categories</h5>
                         </a>
                     </li>
+                    <li>
+                        <a href="add-facility.php"><i class="uil uil-plus"></i>
+                            <h5>Add Facility</h5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="manage-facilities.php"><i class="uil uil-building"></i>
+                            <h5>Manage Facilities</h5>
+                        </a>
+                    </li>
                 <?php endif ?>
             </ul>
         </aside>

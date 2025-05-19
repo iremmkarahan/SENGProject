@@ -18,7 +18,7 @@ if (isset($_SESSION['user-id'])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP & MySQL Blog Application with Admin Panel</title>
+    <title>VOYAGO</title>
     <!-- CUSTOM STYLESHEET -->
     <link rel="stylesheet" href="<?= ROOT_URL ?>css/style.css">
     <!-- ICONSCOUT CDN -->
@@ -31,11 +31,11 @@ if (isset($_SESSION['user-id'])) {
 <body>
     <nav>
         <div class="container nav__container">
-            <a href="<?= ROOT_URL ?>" class="nav__logo">EGATOR</a>
+            <a href="<?= ROOT_URL ?>" class="nav__logo">VOYAGO</a>
             <ul class="nav__items">
-                <li><a href="<?= ROOT_URL ?>blog.php">Blog</a></li>
+                <li><a href="<?= ROOT_URL ?>home.php">Home</a></li>
                 <li><a href="<?= ROOT_URL ?>about.php">About</a></li>
-                <li><a href="<?= ROOT_URL ?>services.php">Services</a></li>
+                <li><a href="<?= ROOT_URL ?>facilities.php">Facilities</a></li>
                 <li><a href="<?= ROOT_URL ?>contact.php">Contact</a></li>
                 <?php if (isset($_SESSION['user-id'])) : ?>
                     <li class="nav__profile">

@@ -20,7 +20,7 @@ unset($_SESSION['signup-data']);
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP & MySQL Blog Application with Admin Panel</title>
+    <title> VOYAGO</title>
     <!-- CUSTOM STYLESHEET -->
     <link rel="stylesheet" href="<?= ROOT_URL ?>css/style.css">
     <!-- ICONSCOUT CDN -->
@@ -52,6 +52,15 @@ unset($_SESSION['signup-data']);
                 <input type="email" name="email" value="<?= $email ?>" placeholder="Email">
                 <input type="password" name="createpassword" value="<?= $createpassword ?>" placeholder="Create Password">
                 <input type="password" name="confirmpassword" value="<?= $confirmpassword ?>" placeholder="Confirm Password">
+                <!-- Add fields for admin signup option -->
+                <div class="form__control inline">
+                    <input type="checkbox" name="is_admin_signup" id="is_admin_signup" value="1">
+                    <label for="is_admin_signup">Sign up as Admin</label>
+                </div>
+                 <div class="form__control">
+                    <label for="admin_code">Admin Code (if signing up as Admin)</label>
+                    <input type="text" name="admin_code" id="admin_code" value="" placeholder="Enter Admin Code">
+                </div>
                 <div class="form__control">
                     <label for="avatar">User Avatar</label>
                     <input type="file" name="avatar" id="avatar">
