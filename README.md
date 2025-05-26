@@ -1,6 +1,6 @@
 🏨 Hotel Booking Web Application
 
-A fully functional hotel booking system developed with PHP, MySQL, HTML, CSS, and JavaScript, designed for managing hotel facilities and handling user reservations. This project includes user authentication, an admin dashboard, and responsive UI built with Bootstrap.
+A fully functional hotel booking system developed with PHP, MySQL, HTML, CSS, and JavaScript, designed for managing hotel facilities and handling user reservations. This project includes user authentication, an admin dashboard, and responsive UI.
 
 🌐 Live Demo: hotelbookingweb.infinityfreeapp.com
 
